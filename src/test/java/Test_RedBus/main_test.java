@@ -59,7 +59,7 @@ System.out.println("nextpage tittle :::"+nextpage);
 	}
 			@AfterClass
 			public void tear() {
-				wd.getCurrentUrl();
+				wd.close();
 			}
 	
 
